@@ -203,9 +203,10 @@ public class FootballPlayer {
         System.out.println("The starting lineup decision is: "+ lineUpDecision);
 
         //Task 9//
-        String finalDecision = eligible ? "Play" : "Rest";
+        String finalStatus = eligible ? "Play" : "Rest";
 
-        System.out.println("The player should: "+ finalDecision);
+        System.out.println("The player should: "+ finalStatus);
+
 
 
 
